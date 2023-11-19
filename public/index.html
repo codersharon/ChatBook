@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="./Logo.ico">
+<link rel="stylesheet" href="./style.css">
+<title>Chatbook | User</title>
+</head>
+
+<body id='body' style="background:black;">
+<nav id="nav" class="flex item-center p-1 navbar-dark chatnav">
+<!-- <ul class="width-30 pointer">
+<h1 id="Chatname"></h1>
+</ul> -->
+<ul class="text-centre fright flex item-center justify-center font-size-large">
+<img style="width: 70px; margin-top: 0.8%;" src="./Logo2.png" alt="Logo" />
+<h1 class="pointer">ChatBook</h1>
+</ul>
+<ul class="fleft flex item-center justify-center p-06">
+<button id="Darkmode" class="btn btn-primary mx-10">Darkmode</button>
+</ul>
+</nav>
+<ul class="" id="messages"></ul>
+<form class="navbar-dark p-2 text-centre cange" id="form" action="">
+<input type="file" id="file" style="display: none;" />
+<label for="file" class="btn btn-primary mx-1">Photo</label>
+  <input type="file" id="video" style="display: none;" />
+<label for="video" class="btn btn-primary mx-1">Video</label>
+<input id="input" class="searchbar searchbar-light" type="text" placeholder="Message">
+<button type="submit" class="btn btn-primary">Send</button>
+</form>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="./script.js"></script>
+
+</html>
+
+</html>
